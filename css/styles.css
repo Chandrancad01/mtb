@@ -1,0 +1,17 @@
+
+.toptitle{
+	display: flex;
+	justify-content: center;
+	place-items: center;
+	background-color: blueviolet;
+}
+h1 a{
+	text-align: center;
+	text-decoration: ;
+	color: black;
+}
+ul{
+	margin: 550px;
+	padding: 550px;
+	overflow: hidden;
+}
