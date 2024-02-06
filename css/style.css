@@ -63,10 +63,11 @@ li a{
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
-	border-radius: 20px;
-    border: 2px solid white;
+	display: flex;
+	border: 20px;
 	transition: all ease-out 1.00s;
-	cursor: pointer;	
+	cursor: blink;	
+	
 }
 
 .container img:hover{
@@ -91,27 +92,16 @@ body {
   height: 10%;
 }
 .swiper-container {
-	width: 100%;
-	height: 100%;
+	width: 50%;
+	height: 50%;
+	display: flex;
 }
 .swiper-slide {
-
+    display: flex;
+    float: right;
+	-webkit-align-items: right;
+	align-items: flex-start;
 	
-	/* Center slide text vertically */
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: inline;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	-webkit-justify-content: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	-webkit-align-items: center;
-	align-items: center;
-	float: right;
-	direction: horizontal;
 }
 
 .search{
