@@ -24,28 +24,3 @@ console.log(b);*/
 
 
 
-const swiper = new Swiper('.swiper', {
-        
-    direction: 'vertical',
-    loop: false,
-    slidesPerView:1,
-    autoplay: {delay: 20000,},
-    spaceBetween: 10,
-    
-    
-    pagination: {
-      el: '.swiper-pagination',
-      clickable:true,
-    },
-  
- navigation: {
-    nextE1: '.swiper-button-next',
-    prevE1: '.swiper-button-prev',
- },
-  
-
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-    
-  });
