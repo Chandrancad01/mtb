@@ -1,4 +1,4 @@
-console.log("welcome to javascript");
+/*console.log("welcome to javascript");
 console.log("welcome to javascript");
 console.log(10);
 console.log(10.10);
@@ -17,10 +17,35 @@ var a=5;
 let b=7;
 
 console.log(a);
-console.log(b);
+console.log(b);*/
 
 
 
 
 
 
+const swiper = new Swiper('.swiper', {
+        
+    direction: 'vertical',
+    loop: false,
+    slidesPerView:1,
+    autoplay: {delay: 20000,},
+    spaceBetween: 10,
+    
+    
+    pagination: {
+      el: '.swiper-pagination',
+      clickable:true,
+    },
+  
+ navigation: {
+    nextE1: '.swiper-button-next',
+    prevE1: '.swiper-button-prev',
+ },
+  
+
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+    
+  });
