@@ -1,7 +1,7 @@
 
 img{
 	width: 155px;
-	height: 155px;
+
 }
 
 .image {
@@ -72,6 +72,8 @@ li a{
 
 .container img:hover{
 	width: 20%;
+	transform: scaleX(-5);
+	
 
 }
 html, body {
@@ -86,24 +88,41 @@ body {
 	margin: 0;
 	padding: 0;
 }
-.container{
-  max-width: 1280px;
-  margin: 0 auto;
-  height: 10%;
-}
-.swiper-container {
-	width: 50%;
-	height: 50%;
+
+
+
+
+.imagecontainer{
+    width: 100%;
 	display: flex;
+
 }
-.swiper-slide {
-    display: flex;
-    float: right;
-	-webkit-align-items: right;
-	align-items: flex-start;
+
+
+.swiper{
+    width: 80%;
+    height: 300px;
+    
+}
+.swiper img{
+    width: 100%;
+    height: 500px;
+	
 	
 }
 
-.search{
-	border-image: auto;
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: rgb(233, 151, 44);
+    
+}
+
+.swiper-pagination-bullet-active{
+    color: rgb(14, 44, 44);
+    background-color: brown;
+    opacity: 1;
+    width: 3rem;
+    height: 1%;
+    border-radius: 0.8rem;
+
 }
